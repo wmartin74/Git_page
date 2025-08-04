@@ -15,4 +15,4 @@ function runscript() {
     window.location.href = "result.html";
     }
 
-document.getElementById("submit").addEventListener("submit", runscript);
+document.getElementById("name").addEventListener("submit", runscript);
