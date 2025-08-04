@@ -9,10 +9,11 @@ function pullfdata() {
     }
 }
 
-function runscript() {
+function runscript(event) {
+    event.preventDefault(); // Prevent the default form submission behavior
     const submittedname = pullfdata();
     
     window.location.href = "result.html";
     }
 
-document.getElementById("testForm").addEventListener("Submit", runscript);
+document.getElementById("testForm").addEventListener("submit", runscript);
