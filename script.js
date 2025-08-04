@@ -4,14 +4,14 @@ function pullfdata() {
         return submittedName;
     } catch (error) {
         console.error("Error parsing input:", error);
-        window.alert("Please enter a valid name.");
+        window.alert("Please enter a valid name.(first and last)");
         return null;
     }
 }
 
 function runscript(event) {
     event.preventDefault(); // Prevent the default form submission behavior
-    const submittedname = pullfdata();
+    let submittedname = pullfdata();
     
     window.location.href = "result.html";
     }
