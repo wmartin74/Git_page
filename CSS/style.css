@@ -27,7 +27,7 @@ h1 {
 
 input[type=submit] {
     font-size: 2rem;
-    color: #536878;
+    background-color: #536878;
     padding: 1rem;
     border-radius: 10px;
 }
