@@ -17,14 +17,17 @@ h1 {
 
 #testForm { 
     background-color: #00827f;
+    padding: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
     margin: auto;
     text-align:center;
 }
 
 
-input, button {
+input[type=submit] {
     font-size: 2rem;
+    color: #536878;
     padding: 1rem;
     border-radius: 10px;
 }
