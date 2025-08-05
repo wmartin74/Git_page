@@ -11,11 +11,11 @@ function pullfdata() {
 
 function runscript(event) {
     event.preventDefault(); // Prevent the default form submission behavior
-    let submittedname = pullfdata();
-    console.log(submittedname);
-    localStorage.setItem("submission", JSON.stringify(submittedname));
+    let submittedName = pullfdata();
+    console.log(submittedName);
+    localStorage.setItem("submission", JSON.stringify(submittedName));
     console.log("saved submission");
     window.location.href = "result.html";
     }
 
-document.getElementById("testForm").addEventListener("submit", runscript);
+document.getElementById("testForm").addEventListener("Submit", runscript);
