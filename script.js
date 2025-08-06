@@ -18,4 +18,4 @@ function runscript(event) {
     window.location.href = "result.html";
     }
 
-document.getElementById("testForm").addEventListener("Submit", runscript);
+document.getElementById("testForm").addEventListener("submit", runscript);
