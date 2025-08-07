@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const submittedname = document.getElementById("submission");
+  submittedname = JSON.parse(localStorage.getItem("submission"));
   console.log("Loaded submission");
+  console.log(submittedname);
 });
                           
